@@ -7,7 +7,7 @@ export const StyledFormItemInput = styled.div`
   border: ${({ error }) => (error ? "1px solid red" : "1px solid #bcbcbc")};
   width: fit-content;
   border-radius: 5px;
-  padding: 10px;
+  /* padding: 10px; */
 
   input {
     background-color: transparent;
@@ -17,6 +17,8 @@ export const StyledFormItemInput = styled.div`
     border: none;
     outline: none;
     text-transform: capitalize;
+    padding:10px ;
+  
   }
   @media only screen and (max-width: 800px) {
     input {
