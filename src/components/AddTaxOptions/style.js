@@ -9,6 +9,8 @@ export const StyledAddTaxOptions = styled.div`
  position:relative ;
  margin-bottom:10px ;
  height:20px ;
+ height:100% ;
+ overflow:hidden ;
  
  p{
   margin:3px 0 ;
