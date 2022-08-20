@@ -13,7 +13,7 @@ export const StyledFormItemInput = styled.div`
     background-color: transparent;
     width: ${({ width }) => width && width}px;
     font-size: 14px 7px;
-    font-weight: 500;
+    font-weight: 300;
     border: none;
     outline: none;
     text-transform: capitalize;
