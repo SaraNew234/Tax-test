@@ -4,7 +4,9 @@ import {
   StyledHome,
   StyledAddTaxForm,
   StyledAOptions,
-  StyledApplicableItemCategory
+  StyledApplicableItemCategory,
+  StyledHeader,
+  StyledMain
 } from './style.js';
 
 import Button from '../Button/index';
@@ -125,7 +127,9 @@ console.log(datas)
   return (
     <StyledHome>
       <form onSubmit={formik.handleSubmit}>
-         <h2>Add Tax</h2>
+        <StyledHeader>
+
+        <h2>Add Tax</h2>
          <StyledAddTaxForm> 
             <FormItem 
             
@@ -169,7 +173,11 @@ console.log(datas)
         }
 
         </StyledAOptions>
-          <FormItem  
+          
+        </StyledHeader>
+        <StyledMain>
+
+        <FormItem  
             type='text'
             value={query}
             setQuery={setQuery}
@@ -191,6 +199,10 @@ console.log(datas)
       }
      </StyledApplicableItemCategory>
         <Button label={`Apply tax to ${applicable_items.length>0?applicable_items.length:0} item(s)`}/>
+
+        </StyledMain>
+        
+          
     </form>
     </StyledHome>
   )

@@ -12,13 +12,23 @@ export const StyledHome = styled.div`
     color: #374151;
     font-family: "Segoe UI" - 400;
   }
-  padding: 10px 30px 10px 30px;
+ 
 `;
 export const StyledAddTaxForm = styled.div`
   display: flex;
   align-items: center;
   gap: 12px;
   margin-bottom: 10px;
+ 
+`;
+export const StyledHeader = styled.div`
+ padding: 10px 30px 10px 30px;
+ border-bottom:1px solid #d6d6d6;
+ margin-bottom:8px ;
+ 
+`;
+export const StyledMain = styled.div`
+ padding: 10px 30px 10px 30px;
  
 `;
 export const StyledAOptions = styled.div`

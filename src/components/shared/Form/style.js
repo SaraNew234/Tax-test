@@ -4,9 +4,6 @@ export const StyledFormItemInput = styled.div`
   display: flex;
   align-items: center;
   gap: 2px;
-  border: 1px solid #4c5f7a;
-  border: 1px solid #d6d6d6;
-  border: 1px solid #bcbcbc;
   border: ${({ error }) => (error ? "1px solid red" : "1px solid #bcbcbc")};
   width: fit-content;
   border-radius: 5px;
