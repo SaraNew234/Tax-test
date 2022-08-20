@@ -19,6 +19,7 @@ function FormItem({
 }) {
   return (
         <StyledFormItemInput width={width} error={error} mobile={mobile}>
+          
            {icon}
             <input
             

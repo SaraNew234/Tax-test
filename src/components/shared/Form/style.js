@@ -8,7 +8,10 @@ export const StyledFormItemInput = styled.div`
   width: fit-content;
   border-radius: 5px;
   /* padding: 10px; */
-
+  span {
+    margin-right:10px ;
+;
+  }
   input {
     background-color: transparent;
     width: ${({ width }) => width && width}px;
