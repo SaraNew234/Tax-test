@@ -12,7 +12,9 @@ export const StyledHome = styled.div`
     color: #374151;
     font-family: "Segoe UI" - 400;
   }
- 
+  @media only screen and (max-width: 800px) {
+    margin: 0;
+  }
 `;
 export const StyledAddTaxForm = styled.div`
   display: flex;
