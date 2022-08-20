@@ -19,6 +19,7 @@ export const StyledAddTaxForm = styled.div`
   align-items: center;
   gap: 12px;
   margin-bottom: 10px;
+ 
 `;
 export const StyledAOptions = styled.div`
   margin-bottom: 10px;

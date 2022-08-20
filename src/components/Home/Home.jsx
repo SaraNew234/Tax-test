@@ -181,8 +181,7 @@ console.log(datas)
         <StyledApplicableItemCategory>
       
       {
-        // datas.filter((item)=>
-        // )
+       
         searchItems.length>0?searchItems.map((item)=>{
           return <ItemOptions item={item}  setSelected={setSelected}/>
         }):
